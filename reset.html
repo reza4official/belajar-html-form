@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Reset</title>
+  </head>
+  <body>
+    <header>
+      <h1>Belajar Reset</h1>
+    </header>
+    <form
+      name="registration"
+      target="_self"
+      action="receive.html"
+      method="post"
+    >
+      <!-- Isi Form -->
+      <label for="name">Name:</label> <br />
+      <input type="text" name="name" id="name" placeholder="Name" value="Mr." />
+      <br />
+      <label for="email">Email:</label> <br />
+      <input type="text" name="email" id="email" placeholder="Email" /> <br />
+      <label for="phone">Phone:</label> <br />
+      <input
+        type="text"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        value="+62"
+      />
+      <br />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
