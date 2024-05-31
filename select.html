@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Select</title>
+  </head>
+  <body>
+    <header>
+      <h1>Belajar Select</h1>
+    </header>
+    <form action="">
+      <label for="city">City</label>
+      <select name="city" id="city">
+        <option value="" selected>-Select city-</option>
+        <!-- <select name="city" id="city" multiple size="3"> -->
+        <optgroup label="Sulawesi">
+          <option value="makassar">Makassar</option>
+          <option value="selayar">Selayar</option>
+          <option value="palopo">Palopo</option>
+        </optgroup>
+        <optgroup label="Jawa">
+          <option value="jakarta">Jakarta</option>
+          <option value="bandung">Bandung</option>
+          <option value="bekasi">Bekasi</option>
+        </optgroup>
+        <!-- <option value="" selected>Select city</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="bandung">Bandung</option>
+        <option value="bekasi">Bekasi</option> -->
+      </select>
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>
